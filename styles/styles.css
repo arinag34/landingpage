@@ -1,0 +1,78 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(../images/beansbackground.png) repeat;
+    padding: 10vh 10vh 0 10vh;
+    position: relative;
+}
+
+.block {
+    background-color: #c99161;
+    border-radius: 3rem;
+    margin-bottom: 5vh;
+    color: floralwhite;
+    text-align: center;
+    font-size: 1.5rem
+}
+
+#footer {
+    width: 100vw;
+    background-color: #41210a;
+    margin-left: calc(-50vw + 50%);
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer div{
+    display: flex;
+    justify-content: center;
+}
+
+#footer p{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.hero {
+    height: 50vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.row p, h3{
+    margin-top: 1rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #41210a;
+    border: none;
+    margin-top: 2rem;
+}
+.btn-primary:hover {
+    background-color: #41210a;
+}
+.service-icon {
+    font-size: 4rem;
+    color: #41210a;
+}
+.step {
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.testimonial {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
